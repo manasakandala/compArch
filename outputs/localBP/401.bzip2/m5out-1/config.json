@@ -454,7 +454,7 @@
                     "BTBEntries": 4096, 
                     "cxx_class": "LocalBP", 
                     "path": "system.cpu.branchPred", 
-                    "localPredictorSize": 2048, 
+                    "localPredictorSize": 4096, 
                     "type": "LocalBP", 
                     "RASSize": 16
                 }, 

@@ -4,11 +4,11 @@ sim_seconds                                  1.601244                       # Nu
 sim_ticks                                1601243863500                       # Number of ticks simulated
 final_tick                               1601243863500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
-host_inst_rate                                 872081                       # Simulator instruction rate (inst/s)
-host_op_rate                                  1528433                       # Simulator op (including micro ops) rate (op/s)
-host_tick_rate                             2792827991                       # Simulator tick rate (ticks/s)
-host_mem_usage                                 826544                       # Number of bytes of host memory used
-host_seconds                                   573.34                       # Real time elapsed on the host
+host_inst_rate                                 868889                       # Simulator instruction rate (inst/s)
+host_op_rate                                  1522838                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                             2782604962                       # Simulator tick rate (ticks/s)
+host_mem_usage                                 826540                       # Number of bytes of host memory used
+host_seconds                                   575.45                       # Real time elapsed on the host
 sim_insts                                   500000000                       # Number of instructions simulated
 sim_ops                                     876313782                       # Number of ops (including micro ops) simulated
 system.voltage_domain.voltage                       1                       # Voltage in Volts
@@ -278,14 +278,14 @@ system.mem_ctrls_1.memoryStateTime::ACT  1139208085000                       # T
 system.mem_ctrls_1.memoryStateTime::ACT_PDN            0                       # Time in different power states
 system.cpu.branchPred.lookups                97901001                       # Number of BP lookups
 system.cpu.branchPred.condPredicted          97901001                       # Number of conditional branches predicted
-system.cpu.branchPred.condIncorrect           9538845                       # Number of conditional branches incorrect
-system.cpu.branchPred.BTBLookups             52004939                       # Number of BTB lookups
-system.cpu.branchPred.BTBHits                50467082                       # Number of BTB hits
-system.cpu.branchPred.BTBMissPct             2.957136                       # BTB Miss Percentage
+system.cpu.branchPred.condIncorrect           8540293                       # Number of conditional branches incorrect
+system.cpu.branchPred.BTBLookups             52161401                       # Number of BTB lookups
+system.cpu.branchPred.BTBHits                51047726                       # Number of BTB hits
+system.cpu.branchPred.BTBMissPct             2.135056                       # BTB Miss Percentage
 system.cpu.branchPred.BTBCorrect                    0                       # Number of correct BTB predictions (this stat may not work properly.
-system.cpu.branchPred.BTBHitPct             97.042864                       # BTB Hit Percentage
-system.cpu.branchPred.usedRAS                 5512040                       # Number of times the RAS was used to get a target.
-system.cpu.branchPred.RASInCorrect             362310                       # Number of incorrect RAS predictions.
+system.cpu.branchPred.BTBHitPct             97.864944                       # BTB Hit Percentage
+system.cpu.branchPred.usedRAS                 5512478                       # Number of times the RAS was used to get a target.
+system.cpu.branchPred.RASInCorrect                569                       # Number of incorrect RAS predictions.
 system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
 system.cpu_clk_domain.clock                       500                       # Clock period in ticks
 system.cpu.apic_clk_domain.clock                 8000                       # Clock period in ticks
@@ -315,9 +315,9 @@ system.cpu.num_busy_cycles                 3202487727                       # Nu
 system.cpu.not_idle_fraction                        1                       # Percentage of non-idle cycles
 system.cpu.idle_fraction                            0                       # Percentage of idle cycles
 system.cpu.Branches                          97901001                       # Number of branches fetched
-system.cpu.predictedBranches                 55979122                       # Number of branches predicted as taken
-system.cpu.BranchMispred                      9538845                       # Number of branch mispredictions
-system.cpu.BranchMispredPercent              9.743358                       # Branch Mispred Percentage
+system.cpu.predictedBranches                 56560204                       # Number of branches predicted as taken
+system.cpu.BranchMispred                      8540293                       # Number of branch mispredictions
+system.cpu.BranchMispredPercent              8.723397                       # Branch Mispred Percentage
 system.cpu.op_class::No_OpClass                939430      0.11%      0.11% # Class of executed instruction
 system.cpu.op_class::IntAlu                 578420253     66.01%     66.11% # Class of executed instruction
 system.cpu.op_class::IntMult                   907073      0.10%     66.22% # Class of executed instruction
